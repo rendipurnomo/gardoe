@@ -8,7 +8,7 @@ const InputCup = ({ label, harga, hasil, onchange }) => {
         <input
           type="number"
           placeholder="laku"
-          className="ring-1 w-[100px] ring-slate-300 rounded-sm outline-lime-300 mb-4 placeholder:pl-2 p-2"
+          className="ring-1 w-[100px] ring-slate-300 rounded-sm outline-primary mb-4 placeholder:pl-2 p-2 text-black"
           onChange={onchange}
         />
       </label>

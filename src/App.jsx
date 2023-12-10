@@ -16,6 +16,10 @@ const router = createBrowserRouter([
         path: "/calculator",
         element: <Calculator />,
       },
+      {
+        path: "*",
+        element: <NotFound />,
+      },
     ],
   },
 ]);

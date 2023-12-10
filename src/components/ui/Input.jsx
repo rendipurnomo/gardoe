@@ -5,13 +5,13 @@ const Input = ({ bawa, laku, sisa, component }) => {
     <div className="flex flex-col items-center">
       <label className="font-semibold">{component}</label>
       <input
-        className="ring-1 ring-slate-300 rounded-sm outline-lime-300 mb-4 placeholder:pl-2 p-2 w-[150px]"
+        className="ring-1 ring-slate-300 rounded-sm outline-primary mb-4 placeholder:pl-2 p-2 w-[150px] text-black font-semibold"
         type="number"
         placeholder="Bawa"
         onChange={bawa}
       />
       <input
-        className="ring-1 ring-slate-300 rounded-sm outline-lime-300 placeholder:pl-2 p-2 w-[150px]"
+        className="ring-1 ring-slate-300 rounded-sm outline-primary placeholder:pl-2 p-2 w-[150px] text-black font-semibold"
         type="number"
         placeholder="Laku"
         onChange={laku}
