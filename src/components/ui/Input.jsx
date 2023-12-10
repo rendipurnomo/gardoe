@@ -1,6 +1,6 @@
 import React from "react";
 
-const Input = ({ bawa, laku, sisa, component }) => {
+const Input = ({ bawa, tambah, laku, sisa, component }) => {
   return (
     <div className="flex flex-col items-center">
       <label className="font-semibold">{component}</label>
@@ -9,6 +9,12 @@ const Input = ({ bawa, laku, sisa, component }) => {
         type="number"
         placeholder="Bawa"
         onChange={bawa}
+      />
+      <input
+        className="ring-1 ring-slate-300 rounded-sm outline-primary mb-4 placeholder:pl-2 p-2 w-[150px] text-black font-semibold"
+        type="number"
+        placeholder="Tambah"
+        onChange={tambah}
       />
       <input
         className="ring-1 ring-slate-300 rounded-sm outline-primary placeholder:pl-2 p-2 w-[150px] text-black font-semibold"
