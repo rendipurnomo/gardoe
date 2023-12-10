@@ -3,12 +3,12 @@ import React from "react";
 const InputCup = ({ label, harga, hasil, onchange }) => {
   return (
     <div className="flex gap-5 items-center">
-      <label className="font-semibold w-[200px]">
+      <label className="font-semibold w-[100px]">
         {label}
         <input
           type="number"
           placeholder="laku"
-          className="ring-1 ring-slate-300 rounded-sm outline-lime-300 mb-4 placeholder:pl-2 p-2"
+          className="ring-1 w-[100px] ring-slate-300 rounded-sm outline-lime-300 mb-4 placeholder:pl-2 p-2"
           onChange={onchange}
         />
       </label>
