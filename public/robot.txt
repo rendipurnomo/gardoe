@@ -1,6 +1,1 @@
-User-agent: *
-Disallow: /search
-Disallow: /category/
-Disallow: /tag/
-Allow: /
-Sitemap: https://gardoe.netlify.app
+
