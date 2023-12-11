@@ -14,9 +14,9 @@ const Calculator = () => {
 
   const HasilTeh = teh * 4000;
   const HasilEs = es * 4000;
-  const HasilTc = tc * 4000;
-  const HasilSc = sc * 4000;
-  const HasilSl = sl * 4000;
+  const HasilTc = tc * 6000;
+  const HasilSc = sc * 6000;
+  const HasilSl = sl * 6000;
 
   const total = HasilTeh + HasilEs + HasilTc + HasilSc + HasilSl;
 
