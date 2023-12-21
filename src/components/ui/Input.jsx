@@ -19,11 +19,11 @@ const Input = ({ bawa, tambah, laku, sisa, component }) => {
       <input
         className="ring-1 ring-slate-300 rounded-sm outline-primary placeholder:pl-2 p-2 w-[150px] text-black font-semibold"
         type="number"
-        placeholder="Laku"
+        placeholder="Sisa"
         onChange={laku}
       />
       <span className={`font-bold mt-2 ${sisa > 0 && "text-red-600"}`}>
-        Sisa: {sisa}
+        Hasil: {sisa}
       </span>
     </div>
   );
